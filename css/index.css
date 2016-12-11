@@ -1,0 +1,734 @@
+/*头部开始*/
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+#logo {
+    padding: 27px 0 0 32px;
+    display: block;
+    height: 25px;
+    width: 95px;
+    overflow: hidden;
+}
+
+#logo-nav {
+    width: 674px;
+    height: 80px;
+    margin-left: 210px;
+    float: left;
+}
+
+#logo-nav > li {
+    float: left;
+    height: 80px;
+}
+
+#logo-nav > li a {
+    display: block;
+    height: 80px;
+    text-align: center;
+    line-height: 82px;
+    font-size: 16px;
+    padding: 0 25px;
+    transition: background-color 5s ease;
+    transition: color 0.3s ease-in;
+}
+
+#logo-nav > li a:hover {
+    background-color: #008cd6;
+    color: #fff;
+}
+
+.header-right {
+    margin-top: 24px;
+    margin-right: 40px;
+    float: right;
+}
+
+.header-right a {
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #A0A0A0;
+    border-radius: 50%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.header-right a b {
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 50%;
+    margin-left: -9px;
+    margin-top: -9px;
+    position: absolute;
+}
+
+.header-right a .v-gb-ico1 {
+    background: url("../images/vivo-gb-ico.png") no-repeat -36px 0;
+}
+
+.header-right a .v-gb-ico2 {
+    background: url("../images/vivo-gb-ico.png") no-repeat 0 0;
+}
+
+.header-right a .v-gb-ico3 {
+    background: url("../images/vivo-gb-ico.png") no-repeat -18px 0;
+}
+
+.header-right .first:hover {
+    background-color: #008cd6;
+}
+
+.header-right a .xv {
+    width: 88px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border: #aaa solid 1px;
+    border-radius: 3px;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    margin-left: -44px;
+    color: #999;
+    font-size: 12px;
+    display: none;
+}
+
+.header-right .first:hover .v-gb-ico1 {
+    background-position: -36px -18px;
+}
+
+.header-right .first:hover .xv {
+    display: block;
+}
+
+/*头部结束*/
+
+/*推荐产品开始*/
+#vivo-contain {
+    padding-top: 90px;
+    background: #fafafa;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 350px;
+}
+
+/*推荐产品结束*/
+
+.vivo-all-products .recommend {
+    height: 80px;
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.vivo-all-products i {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #dcdcdc;
+}
+
+.vivo-all-products strong {
+    font-size: 18px;
+    color: #333;
+    padding: 0 10px;
+    font-weight: normal;
+    display: block;
+    position: relative;
+    width: 72px;
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+
+.promos-list {
+    height: 665px;
+    border: 1px #eee solid;
+    background: #fff;
+    overflow: hidden;
+}
+
+.promos-list-left .promos-list-left {
+
+}
+
+.promos-list-left .promos-list-left-top {
+    height: 332px;
+}
+
+.promos-list-left .promos-list-left-bottom {
+    margin-top: 1px;
+}
+
+.promos-list a {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.x7 {
+    width: 714px;
+    height: 332px;
+    background: #47afe6;
+}
+
+.xplay5 {
+    width: 383px;
+    height: 665px;
+}
+
+.xe {
+    width: 357px;
+    height: 332px;
+    background: #ff97b7;
+    margin-right: 1px;
+    margin-left: -1px;
+}
+
+.v3 {
+    width: 357px;
+    height: 332px;
+    background: #ffd25a;
+}
+
+.promos-list .pic {
+    position: absolute;
+    transition: transform 1s ease 0s;
+}
+
+.promos-list .x7 img {
+    left: 0;
+    top: 0;
+}
+
+.promos-list .xplay5 img {
+    left: 0;
+    top: 0;
+}
+
+.promos-list .xe img {
+    bottom: 0;
+    right: 20px;
+}
+
+.promos-list .v3 img {
+    top: 0;
+    left: 30px;
+}
+
+.x7 h2 {
+    width: 230px;
+    height: 30px;
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+
+.xe h2 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 2;
+    display: block;
+    font-size: 24px;
+    padding: 0;
+    color: #fff
+}
+
+.v3 h2 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 2;
+    display: block;
+    font-size: 24px;
+    padding: 0;
+}
+
+.xplay5 h2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    z-index: 9;
+}
+
+.promos-list .x7 .pic:hover {
+    transform: translateY(-10PX) skew(-15deg, -15deg);
+}
+
+.promos-list .xplay5 .pic:hover {
+    transform: translateY(-30PX);
+}
+
+.promos-list .xe .pic:hover {
+    transform: translateY(-15PX) scale(1.07);
+}
+
+.promos-list .v3 .pic:hover {
+    transform: translateX(-30PX) skew(45deg, 15deg);
+}
+
+/*全部商品部分开始*/
+.all-pro-list {
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.all-list {
+    overflow: hidden;
+    position: relative;
+    border: 1px #eee solid;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.all-list ul li {
+    float: left;
+    width: 274px;
+    height: 350px;
+    overflow: hidden;
+    border-right: 1px #eee solid;
+    border-bottom: 1px #eee solid;
+    text-align: center;
+    position: relative;
+}
+
+.all-list ul li .s {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*opacity: 0;*/
+    height: 2px;
+    transition: background-color 2s ease, opacity 2s ease;
+}
+
+.all-list ul li .y {
+    position: absolute;
+    right: 0;
+    /*opacity: 0;*/
+    top: 0;
+    width: 2px;
+    transition:  background-color 2s ease 0.2s, opacity 2s ease;
+}
+
+.all-list ul li .x {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*opacity: 0;*/
+    height: 2px;
+    transition: background-color 2s ease 0.2s, opacity 2s ease;
+}
+
+.all-list ul li .z {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    /*opacity: 0;*/
+    width: 2px;
+    transition:  background-color 2s ease 0.2s, opacity 2s ease;
+}
+
+.all-list ul li :hover .s {
+    background-color: #85ad41;
+    /*width: 272px;*/
+    /*opacity: 0.8;*/
+}
+
+.all-list ul li :hover .y {
+    background-color: #85ad41;
+    /*height: 348px;*/
+    /*opacity: 0.8;*/
+}
+
+.all-list ul li :hover .x {
+    background-color: dodgerblue;
+    /*width: 274px;*/
+    /*opacity: 0.8;*/
+}
+
+.all-list ul li :hover .z {
+    background-color: dodgerblue;
+    /*height: 346px;*/
+    /*opacity: 0.8;*/
+}
+
+.all-list ul li a .figure {
+    height: 248px;
+    overflow: hidden;
+    /*position: relative;*/
+    text-align: center;
+}
+
+.all-list ul li .price {
+    position: absolute;
+    left: 274px;
+    color:#333;
+    top: 50px;
+    font-size: 18px;
+    width: 200px;
+}
+
+.all-list ul li .buy {
+    position: absolute;
+    color: red;
+    bottom: 60px;
+    font-size: 18px;
+    left:274px;
+    width:150px;
+}
+
+.all-list ul li a .figure img {
+    width: 248px;
+    height: 248px;
+    z-index: 1;
+    position:absolute;
+    left:50%;
+    margin-left: -124px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out
+
+}
+
+.all-list ul li:hover img {
+    transform: scale(1.07);
+}
+
+.all-list ul li a h3 {
+    font-size: 18px;
+    color: #333;
+    width:150px;
+    text-align: center;
+    position:absolute;
+    left:50%;
+    margin-left:-75px;
+}
+
+.all-list ul li a p {
+    padding: 0 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.all-list ul li a i {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    border: 0px solid white;
+    transition: border 2s ease;
+
+}
+
+.all-list ul li.cright {
+    border-right: none;
+    width: 273px;
+}
+
+.vivo_l_pages {
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+.vivo_l_pages ul {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vivo_l_pages ul li {
+    float: left;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.vivo_l_pages ul li.next {
+    margin-left: 5px;
+}
+
+.vivo_l_pages ul li a {
+    display: block;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #666;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.vivo_l_pages ul li.next a {
+    background-position: -32px 0;
+}
+
+.vivo_l_pages ul li.p a {
+    background: url(../images/vivo_l_pages-ico.png) no-repeat;
+    background-size: 100px 100px;
+}
+
+.vivo_l_pages ul li a:hover, .vivo_l_pages ul li a.current {
+    color: #008cd6;
+}
+
+.vivo_l_pages .form {
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vivo_l_pages .form input {
+    width: 30px;
+    padding: 0 5px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    color: #666;
+    position: relative;
+    top: 0;
+    font-size: 18px;
+}
+
+input.v_inp {
+    background: #f5f5f5;
+    border: none;
+    -webkit-box-shadow: 0 0 5px rgba(0, 140, 214, 0), 0 1px 2px rgba(0, 0, 0, .1) inset;
+    -moz-box-shadow: 0 0 5px rgba(0, 140, 214, 0), 0 1px 2px rgba(0, 0, 0, .1) inset;
+    -ms-box-shadow: 0 0 5px rgba(0, 140, 214, 0), 0 1px 2px rgba(0, 0, 0, .1) inset;
+    box-shadow: 0 0 5px rgba(0, 140, 214, 0), 0 1px 2px rgba(0, 0, 0, .1) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #333;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.vivo_l_pages .form span {
+    font-size: 18px;
+    color: #666;
+    vertical-align: middle;
+}
+
+.vivo_l_pages .form a {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    background-color: #008cd6;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/*全部商品部分结束*/
+
+/*底部分享部分*/
+#vivo-foot-wrap {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-color: #222;
+    z-index: 2;
+    visibility: hidden;
+}
+
+#vivo-foot {
+    height: 350px;
+    width: 100%;
+    position: fixed;
+    background-color: #222;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    color: #999;
+    font-size: 14px;
+}
+
+#vivo-foot .vivo-f-logo {
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+
+#vivo-foot .vivo-f-share {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.vivo-f-share .vf-share-link {
+    margin-top: 20px;
+    position: relative;
+}
+
+#vivo-foot a {
+    color: #666;
+}
+
+.vivo-f-share .vf-share-link a {
+    width: 45px;
+    height: 45px;
+    overflow1: hidden;
+    display: inline-block;
+    margin: 0 15px;
+    background-color: #666;
+    border-radius: 50%;
+    -webkit-transition: background-color .5s ease;
+    -moz-transition: background-color .5s ease;
+    transition: background-color 1s ease;
+}
+
+.vivo-f-share .vf-share-link a b {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    transition: background-color 1s ease;
+}
+
+b {
+    background-image: url(../images/vivo-gb-ico.png?v=9);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+    content: '';
+}
+
+#vivo-foot .vivo-f-share .vf-share-link a.vf-f-kefu {
+    width: 140px;
+    height: 36px;
+    line-height: 37px;
+    border-radius: 18px;
+    color: #fff;
+    text-align: left;
+    margin-left: 45px;
+    position: relative;
+    margin-top: 3px;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-kefu:hover {
+    background-color: dodgerblue;
+}
+
+.vivo-f-share .vf-share-link a:hover .v-gb-ico {
+    background-color: dodgerblue;
+}
+
+.vivo-f-share .vf-share-link .vf-f-sina:hover .v-gb-ico-f {
+    background-color: #dd080c;
+}
+
+.vivo-f-share .vf-share-link .vf-f-weixin:hover .v-gb-ico-s {
+    background-color: #34ad0c;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-sina b {
+    background-position: -419px -80px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-weixin b {
+    background-position: -555px -80px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-vi b {
+    background-position: -285px -80px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-tieba b {
+    background-position: -329px -80px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-buluo b {
+    background-position: -195px -83px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-kefu b {
+    width: 36px;
+    height: 36px;
+    background-position: -243px -83px;
+    margin: -7px 0 0 5px;
+
+}
+
+.vivo-f-share .vf-share-link a.vf-f-kefu:hover {
+    background-color: dodgerblue;
+}
+
+/*底部分享部分结束*/
+
+/*vf-f-sitelinks 部分开始*/
+#vivo-foot .vf-f-sitelinks {
+    text-align: center;
+}
+
+.vf-f-sitelinks a {
+    display: inline-block;
+    margin: 0 6px;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+#vivo-foot .vf-f-sitelinks a:hover {
+    color: dodgerblue;
+}
+
+/*vf-f-sitelinks 部分结束*/
+
+#vivo-foot .vf-f-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #666;
+}
+
+#vivo-foot .vf-f-copyright a:hover {
+    color: dodgerblue;
+}

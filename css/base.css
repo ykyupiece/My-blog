@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    /*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none; /*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse; /*合并外边线*/
+}
+
+body {
+    font-size: 12px;
+    font-family: "FZLanTingHei-L-GBK", "GothamBook", "helvetica", "arial", "Microsoft Yahei", "微软雅黑", sans-serif;
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color:#666;
+}
+
+h1, h2, h3, h4, h5, h6 strong {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.al {
+    text-align: left
+}
+
+.ac {
+    text-align: center
+}
+
+.ar {
+    text-align: right
+}
+
+.hide {
+    display: none
+}
+
+/*m-header部分start*/
+.m-header {
+    width: 100%;
+    background-color: #000;
+}
+
+#logo {
+    display: block;
+    height: 69px;
+    width: 125px;
+    float: left;
+    margin: 0;
+    marign: 0;
+    padding: 0;
+}
+
+#logo a {
+    background: url("../images/logo.jpg") no-repeat 0 center;
+    text-indent: -9999px;
+    display: block;
+    height: 69px;
+    width: 125px;
+}
+
+#headerNavGroup {
+    color: #fff;
+    margin: 0 0px 0 155px;
+    height: 69px;
+}
+
+#topNav {
+    border-bottom: 1px solid #262626;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 0px 7px 0;
+    margin-left: 30px;
+}
+
+#userLoginblock a {
+    color: #26a8e2;
+    padding: 0px 5px;
+}
+
+#topRightNav {
+    margin-right: -4px;
+}
+
+#topRightNav li {
+    /*float: left;*/
+    display: inline;
+}
+
+#topRightNav li a {
+    padding: 0px 8px;
+    border-right: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+}
+
+#topRightNav li .a-first {
+    color: #26a8e2;
+    border: none;
+}
+
+#nav-list {
+    margin: 2px 0 0 5px;
+    height: 35px;
+}
+
+#nav-list > li {
+    float: left;
+    height: 35px;
+    padding: 0px 25px;
+    background: url(../images/nav_line.jpg) right 8px no-repeat;
+    line-height: 30px;
+}
+
+#nav-list > li.sub {
+    position: relative;
+    padding: 0;
+}
+
+#bottomNav #nav-list > li.last {
+    padding: 0px;
+    position: relative;
+}
+
+#bottomNav #nav-list-one {
+    background: url(../images/dot_down_black.jpg) no-repeat 92px 15px;
+    float: left;
+    width: 90px;
+    height: 35px;
+    padding-left: 25px;
+}
+
+#bottomNav #nav-list-three {
+    float: left;
+    width: 78px;
+    height: 35px;
+    text-align: center;
+}
+
+#nav-list-one, #nav-list-two, #nav-list-three, #nav-list-four {
+    font-size: 14px;
+    color: #fff;
+}
+
+#bottomNav #nav-list-two {
+    width: 85px;
+    height: 35px;
+}
+
+#s_input {
+    padding-top: 3px;
+}
+
+#search-input {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 26px;
+    line-height: 26px;
+    text-indent: 1em;
+    color: #787878;
+    width: 180px;
+    border-radius: 0;
+    font-family: "Microsoft YaHei";
+}
+
+#search-btn {
+    border-radius: 0;
+    width: 30px;
+    height: 26px;
+    display: block;
+    background: url(../images/top_tmp_05.jpg) right center no-repeat #fff;
+    border: 0px;
+}
+
+#shoppingCartBlock {
+    float: right;
+    position: relative;
+    display: inline;
+    color: #fff;
+    z-index: 150;
+}
+
+#shoppingButtonLink {
+    font-size: 0px;
+}
+
+#shoppingCartBlock a#gotoShopping {
+    color: #fff;
+    visibility: hidden;
+}
+
+#scButton {
+    float: right;
+    background: url(../images/shopping_left_bg.jpg) left top no-repeat;
+    font-size: 0px;
+    margin-top: 3px;
+}
+
+#shoppingCartButton {
+    height: 26px;
+    line-height: 26px;
+    padding: 0px 25px 0px 30px;
+    background: url(../images/shopping_right_bg.jpg) right top no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    color: #28a9e2;
+}
+
+#gotoShopping {
+    height: 26px;
+    line-height: 26px;
+    width: 50px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    background-color: #26a9e1;
+    color: #fff;
+    margin-top: 3px;
+}
+
+/*购物车隐藏部分*/
+#shoppingCartArea {
+    display: none;
+    position: absolute;
+    top: 29px;
+    right: 0px;
+    width: 475px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 150;
+}
+
+/*商品分类隐藏部分*/
+#bottomNav #nav-list li.sub .subContent {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 35px;
+    left: -121px;
+}
+
+/*m-header部分end*/
+
+.current{
+    background-color: #008cd6;
+    color: #fff;
+}
+
